@@ -1,43 +1,24 @@
-# [Astro](https://astro.build) GitHub Pages Template
+# Plans Together Guides
 
-## 🤖 Automatic Deployment to GitHub Pages
+This is the repo for [guides.planstogether.net](https://guides.planstogether.net) and contains all of the guides available on the site.
 
-This minimal Astro project template comes with a [GitHub Action](https://github.com/features/actions) that automatically deploys your site to [GitHub Pages](https://pages.github.com/).
+Guides can be found in `src/content` directory as `.mdx` files. The guides should all be written as markdown and get converted automatically to HTML on build
 
-For more information, please see our complete deployment guide—[Deploy your Astro Site to GitHub Pages](https://docs.astro.build/en/guides/deploy/github/).
+## Contributing
 
-## 🚀 Project Structure
+There are many ways you can contribute to the Plans Together Guides, not just be writing guides, but also by keeping them up to date, fixing broken links and translatin guides into other languages
 
-Inside of your Astro project, you'll see the following folders and files:
+If you find something that isn't right, fix it and submit a PR. If for whatever reason, you aren't able to fix it, make a GitHub Issue and someone who can will fix it instead
 
-```
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+### Guide Writing Guide
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+(bit of a mouthful!)
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+When writing guides, please uses clear straight forward language, using:
 
-Any static assets, like images, can be placed in the `public/` directory.
+- Shorter paragraphs
+- Few assumptions about existing knowledge (link to other guides where appropriate)
+- Explain acronyms and abbreviations
+- Simpler vocabulary with less jargon
 
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                | Action                                           |
-| :--------------------- | :----------------------------------------------- |
-| `npm install`          | Installs dependencies                            |
-| `npm run dev`          | Starts local dev server at `localhost:3000`      |
-| `npm run build`        | Build your production site to `./dist/`          |
-| `npm run preview`      | Preview your build locally, before deploying     |
-| `npm run astro ...`    | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+This makes it easier for people who are frustrated, non-native or have cognitive difficulties
